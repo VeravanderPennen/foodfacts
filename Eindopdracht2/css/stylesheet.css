@@ -1,0 +1,35 @@
+body {
+    background-image: url("../images/healthyfoodkopie.jpg");
+    background-size: 100%;
+}
+article {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    /*background-color: rgba(153,255,204,.2);*/
+}
+li {
+    list-style-type: none;
+}
+ul.vragen {
+    margin: 0;
+    padding: 0;
+}
+ul.vragen li {
+    display: inline-block;
+    margin-left: 25px;
+}
+p#uitleg {
+    padding: 20px;
+    font-size: 24px;
+}
+.greenback {
+     background-color: rgba(153,255,204,.8);
+}
+.correct {
+    background-color: rgb(0,255,0);
+    margin-left: 2em;
+}
+.none {
+    display: none;
+}

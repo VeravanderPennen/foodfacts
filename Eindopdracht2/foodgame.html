@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8" />
+    <title> Food Facts</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+</head>
+<body>
+    <article id="vragenlijst" class="">
+        <!--<img id="voeding" src="images/voeding.jpg" alt="voeding op vork"/>-->
+        <h1>Food Facts</h1>
+        <h3>Test je kennis of doe juist wat op! (en verdien een recept)</h3>
+        <h5>Kies het juiste antwoord</h5>
+        <ul class="vragen">
+            <li>
+                <form id="vraag1">
+                    <p id="vraag">Welke groente bevat het meeste vitamine C?</p>
+                    <label>
+                        <input class="antwoordgoed" type="radio" name="vraag1"/>
+                        Paprika<br/>
+                    </label>
+                    <label>
+                        <input class="antwoordfout" type="radio" name="vraag1" class="onjuist"/>
+                        Sinaasappel<br/>
+                    </label>
+                    <label>
+                        <input class="antwoordfout" type="radio" name="vraag1" class="onjuist"/>
+                        Bloemkool<br/>
+                    </label>
+                </form>
+            </li>
+            <li>
+                <form id="vraag2">
+                    <p id="vraag">Welk product bevat veel vet?</p>
+                    <label>
+                        <input class="antwoordgoed" type="radio" name="vraag2" class="juist"/>
+                        Kaas<br/>
+                    </label>
+                    <label>
+                        <input class="antwoordfout" type="radio" name="vraag2" class="onjuist"/>
+                        Bonen<br/>
+                    </label>
+                    <label>
+                        <input class="antwoordfout" type="radio" name="vraag2" class="onjuist"/>
+                        Eierkoek<br/>
+                    </label>
+                </form>
+            </li>
+            <li>
+                <form id="vraag3">
+                    <p>Welke voedingsstof wordt omgezet in vet,<br/> wanneer je het nog niet nodig hebt?</p>
+                    <label>
+                        <input class="antwoordfout" type="radio" name="vraag3" class="onjuist"/>
+                        Eiwitten<br/>
+                    </label>
+                        <input class="antwoordgoed" type="radio" name="vraag3" class="juist"/>
+                        Koolhydraten<br/>
+                    <label>
+                        <input class="antwoordfout" type="radio" name="vraag3" class="onjuist"/>
+                        Zout<br/>
+                    </label>
+                </form>
+            </li>
+        </ul>
+        <br/>
+        <input type="submit" id="btn" value="Check"/>
+
+        <p id="uitleg"></p>
+
+        <h2>Hoeveel volkoren boterhammen eet jij per dag?</h2>
+        <form id="boterham">
+          <input type="number" id="aantalBoterhammen" name="quantity" min="0" max="20"><br/>
+          <input type="submit" id="stuurBoterham">
+          <input type="submit" id="stuurTip" value="Tip"/>
+        </form>
+        <p>Om gezond te blijven heb je ongeveer 30 tot 40 vezels nodig per dag.</p>
+    </article>
+
+    <article id="recept" class="none">
+        <h2>Je hebt een recept verdiend!</h2>
+        <p>Dubbelklik op het recept wat je wilt gaan klaarmaken.</p>
+        <ul id="receptkeuze">
+            <li><img src="images/recept1.jpg" alt=recept></li>
+            <li><img src="images/recept2.jpg" alt=recept></li>
+            <li><img src="images/recept3.jpg" alt=recept></li>
+        </ul>
+    </article>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
